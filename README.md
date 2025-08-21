@@ -64,31 +64,31 @@ Open in browser
 
 Frontend (app.py)
 
-Provides a browser chat interface
+    Provides a browser chat interface
 
-Sends user messages to backend via POST /chat API
+    Sends user messages to backend via POST /chat API
 
-Displays bot replies dynamically
+    Displays bot replies dynamically
 
 Bot Logic (chatbot_core.py)
 
-Normalizes user input: lowercase, remove stopwords, keep meaningful words
+    Normalizes user input: lowercase, remove stopwords, keep meaningful words
 
-Uses Jaccard similarity to find the closest FAQ match
+    Uses Jaccard similarity to find the closest FAQ match
 
-Returns fallback message if no FAQ matches
+    Returns fallback message if no FAQ matches
 
 Database Logging (database.py)
 
-Saves user messages and bot replies with timestamps
+    Saves user messages and bot replies with timestamps
 
-Stores in SQLite database (chat_logs.db)
+    Stores in SQLite database (chat_logs.db)
 
 # ✨ How to Extend
 
 Add new FAQs in FAQ_KB in chatbot_core.py:
 
-FAQ_KB.append(("new question", "new answer"))
+    FAQ_KB.append(("new question", "new answer"))
 
 
 Adjust Jaccard similarity threshold in faq_match() to make the bot more/less strict:
