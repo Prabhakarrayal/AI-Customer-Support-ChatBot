@@ -25,6 +25,7 @@ Sample chat interface with user & bot messages.
 AI-ChatBot/
 
 │
+
 ├── app.py             # Main Flask app and web UI
 
 ├── chatbot_core.py    # Bot logic using NLP and FAQ matching
