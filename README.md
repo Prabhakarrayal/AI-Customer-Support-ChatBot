@@ -35,29 +35,30 @@ AI-ChatBot/
 Clone the repository
 
 git clone https://github.com/your-username/AI-ChatBot.git
-cd AI-ChatBot
+
+           cd AI-ChatBot
 
 
 Create a virtual environment
 
-python -m venv venv
-source venv/bin/activate      # Linux/macOS
-venv\Scripts\activate         # Windows
+    python -m venv venv
+    source venv/bin/activate      # Linux/macOS
+    venv\Scripts\activate         # Windows
 
 
 Install dependencies
 
-pip install flask nltk
+    pip install flask nltk
 
 
 Run the app
 
-python app.py
+    python app.py
 
 
 Open in browser
 
-Go to: http://127.0.0.1:5000/ and start chatting!
+    Go to: http://127.0.0.1:5000/ and start chatting!
 
 # 🔍 How it Works
 
@@ -92,7 +93,7 @@ FAQ_KB.append(("new question", "new answer"))
 
 Adjust Jaccard similarity threshold in faq_match() to make the bot more/less strict:
 
-kb_ans = faq_match(user_message, threshold=0.3)
+    kb_ans = faq_match(user_message, threshold=0.3)
 
 
 Update UI text or styling in app.py under <style> or <script>
