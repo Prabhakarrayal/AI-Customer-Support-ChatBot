@@ -18,9 +18,11 @@ A web-based AI ChatBot built using Python, Flask, and NLP. It handles FAQs, prov
 
 # 🖼 Demo Screenshot
 
-|     GUI    | Recommendations  |
+|     GUI AND BOT REPLIES   | FALLBACK REPLIES  |
 |------------|------------------|
-| ![GUI Input](gui.png) | ![Recommendations](recommendations.png) |
+| ![GUI AND REPLIES](
+ai_chatbot_ui_and_bot_replies.png) | ![FALLBACK HANDLING](
+ai chatbot fall back handling.png) |
 
 
 Sample chat interface with user & bot messages.
