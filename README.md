@@ -18,6 +18,10 @@ A web-based AI ChatBot built using Python, Flask, and NLP. It handles FAQs, prov
 
 # 🖼 Demo Screenshot
 
+|     GUI    | Recommendations  |
+|------------|------------------|
+| ![GUI Input](gui.png) | ![Recommendations](recommendations.png) |
+
 
 Sample chat interface with user & bot messages.
 
@@ -40,7 +44,7 @@ AI-ChatBot/
 
 Clone the repository
 
-git clone https://github.com/your-username/AI-ChatBot.git
+[GitHub rep.](https://github.com/Prabhakarrayal), 
 
            cd AI-ChatBot
 
@@ -129,3 +133,10 @@ Add user authentication and personalized chat history
 # 📄 License
 
 MIT License – feel free to use, modify, and share!
+
+## ✍️ Author
+**Prabhakar Rayal**  
+B.Tech CSE | Graphic Era Hill University  
+📍 Rishikesh, Uttarakhand, India  
+[GitHub Profile](https://github.com/Prabhakarrayal), 
+[LinkedIn Profile](https://in.linkedin.com/in/prabhakar-rayal-6639682)
