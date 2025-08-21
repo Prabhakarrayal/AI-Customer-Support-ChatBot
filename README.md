@@ -1,10 +1,10 @@
-🤖 AI Customer Support ChatBot
+# 🤖 AI Customer Support ChatBot
 
 
 
 A web-based AI ChatBot built using Python, Flask, and NLP. It handles FAQs, provides customer support answers, logs conversations, and gracefully handles queries it can’t understand.
 
-🌟 Features
+# 🌟 Features
 
 💬 Web-based chat interface using Flask
 
@@ -16,12 +16,12 @@ A web-based AI ChatBot built using Python, Flask, and NLP. It handles FAQs, prov
 
 🔧 Easy to extend: add new FAQs or improve responses
 
-🖼 Demo Screenshot
+# 🖼 Demo Screenshot
 
 
 Sample chat interface with user & bot messages.
 
-📂 Project Structure
+# 📂 Project Structure
 AI-ChatBot/
 │
 ├── app.py             # Main Flask app and web UI
@@ -30,7 +30,7 @@ AI-ChatBot/
 ├── chat_logs.db       # Database file (auto-created)
 └── README.md          # Project documentation
 
-⚙️ Installation
+# ⚙️ Installation
 
 Clone the repository
 
@@ -59,7 +59,7 @@ Open in browser
 
 Go to: http://127.0.0.1:5000/ and start chatting!
 
-🔍 How it Works
+# 🔍 How it Works
 
 Frontend (app.py)
 
@@ -83,7 +83,7 @@ Saves user messages and bot replies with timestamps
 
 Stores in SQLite database (chat_logs.db)
 
-✨ How to Extend
+# ✨ How to Extend
 
 Add new FAQs in FAQ_KB in chatbot_core.py:
 
@@ -97,7 +97,7 @@ kb_ans = faq_match(user_message, threshold=0.3)
 
 Update UI text or styling in app.py under <style> or <script>
 
-🛠 Technologies Used
+# 🛠 Technologies Used
 
 Python 3.x
 
@@ -109,7 +109,7 @@ SQLite (Lightweight database)
 
 HTML/CSS/JS (Frontend chat interface)
 
-🚀 Future Improvements
+# 🚀 Future Improvements
 
 Add ML-based intent recognition for better understanding
 
@@ -119,6 +119,6 @@ Deploy on cloud platforms like Heroku, AWS, or Render
 
 Add user authentication and personalized chat history
 
-📄 License
+# 📄 License
 
 MIT License – feel free to use, modify, and share!
